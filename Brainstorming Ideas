@@ -14,3 +14,19 @@ Brainstorming Structure:
   3. Explain the concepts of wavelets
   4. Explain results
   5. Conclusions
+
+Potential technical tasks
+1. More EDA to serve as baseline for comparison
+  - FFT on CDS
+  - FFT on Non-CDS
+  - Windowed FFT / STFT?
+  - Autocorrelation?
+2. Compute wavelet approximation / detail coefficients at different scales (scales ~ convolution window size / effective support)
+  - Full genome
+  - CDS
+  - Non-CDS
+3. Analysis plots
+  - Energy distribution across scales (Ej = |Dj|^2, normalized to Ej / Sum(E)); j is the scale (2 bp vs 4 bp, etc) -- Line or bar chart; squaring gives energy since wavelets form an orthonormal basis
+  - Spatial distribution of detail coefficients  -- line chart for each scale
+  - Windowed energy distribution; similar to energy distribution across scales, but being able to zoom into a specific window -- maybe heat map?
+  - Entropy across scales?  Relative entropy between CDS/non-CDS (K-L divergence)? 

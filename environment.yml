@@ -1,0 +1,17 @@
+name: math
+channels:
+  - defaults
+  - conda-forge
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - biopython
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - python==3.11.9
+  - scikit-learn
+  - scipy
+  - seaborn
+

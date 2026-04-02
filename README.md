@@ -4,6 +4,8 @@
 Analyzing E. Coli DNA Structure Using Wavelets
 
 ##  Contents
+- [Installation](#installation)
+- [Sandbox](#sandbox)
 - [Description](#description)
   - [Project Presentation Expectations](#project-presentation-expectations)
   - [Project Paper Expectations](#project-paper-expectations)
@@ -12,6 +14,34 @@ Analyzing E. Coli DNA Structure Using Wavelets
 - [Artifacts](#artifacts)
 - [Team](#team)
 
+##  Installation
+Here are two sets of instructions for creating the python virtual environment; one using pip and the other using conda.
+
+### Pip (`requirements.txt`)
+Install Anaconda from https://www.anaconda.com/download
+
+```bash
+conda create -n math python==3.11.9
+conda activate math
+pip install -r requirements.txt
+```
+
+### Conda (`environment.yml`)
+Install Anaconda from https://www.anaconda.com/download
+
+```bash
+conda env create -f environment.yml
+conda activate math
+```
+
+[Back to Top](#applied-mathematics-5300-project)
+
+##  Sandbox
+The `sandbox/` directory is a safe place for exploratory work. If you want to experiment with a notebook, try a different analysis path, or make temporary edits without changing the tracked project files, copy the notebook from the project base directory into `sandbox/` and work from there instead.
+
+This is useful when you want freedom to test ideas, generate intermediate outputs, or make messy work-in-progress changes without cluttering the main codebase. The `sandbox/.gitignore` file is configured so files you place there are not uploaded to the repository, which helps keep the shared project history focused on the final versions of notebooks and code.
+
+[Back to Top](#applied-mathematics-5300-project)
 
 ## Description
 This is the project space for UML's Spring 2026 Math 5300 course. 
