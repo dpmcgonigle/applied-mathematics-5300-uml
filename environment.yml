@@ -11,7 +11,7 @@ dependencies:
   - numpy
   - pandas
   - python==3.11.9
+  - PyWavelets
   - scikit-learn
   - scipy
   - seaborn
-

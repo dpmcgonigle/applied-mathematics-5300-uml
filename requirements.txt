@@ -6,6 +6,7 @@ jupyter
 matplotlib
 numpy
 pandas
+PyWavelets
 scikit-learn
 scipy
 seaborn

@@ -30,3 +30,9 @@ Potential technical tasks
   - Spatial distribution of detail coefficients  -- line chart for each scale
   - Windowed energy distribution; similar to energy distribution across scales, but being able to zoom into a specific window -- maybe heat map?
   - Entropy across scales?  Relative entropy between CDS/non-CDS (K-L divergence)? 
+
+**4/4/26 meeting**
+Sam brought up some good potential avenues:
+1. Windowed wavelet comparison analysis
+2. Error analysis/quantification
+3. Complexity analysis for wavelet operation
