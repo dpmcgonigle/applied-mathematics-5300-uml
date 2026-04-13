@@ -104,14 +104,11 @@ Relevant notes regarding this proposal:
 [Back to Top](#applied-mathematics-5300-project)
 
 ##  Artifacts
-- Signal EDA Notebook (Exploratory Data Analysis)
-  - [ecoli_dna_eda.ipynb](ecoli_dna_eda.ipynb) (**WIP**)
+[Exploratory Data Analysis](ecoli_dna_eda.ipynb)
 - Signal Wavelet Notebooks
-  - Haar GC Analysis (**TBD**)
-  - Haar A Analysis (**TBD**)
-  - Haar T Analysis (**TBD**)
-  - Haar G Analysis (**TBD**)
-  - Haar C Analysis (**TBD**)
+  - GC Haar Wavelets Analysis (**TBD**)
+  - [Adenine Haar Wavelets Analysis](wavelets_a_analysis.ipynb)
+  - Guanine Haar Wavelets Analysis (**TBD**)
 - Powerpoint Presentation (**TBD**)
 
 [Back to Top](#applied-mathematics-5300-project)
