@@ -113,6 +113,24 @@ Relevant notes regarding this proposal:
 
 [Back to Top](#applied-mathematics-5300-project)
 
+##  Presentation Layout
+Powerpoint Plan
+  Intro
+  What are Wavelets?
+    -Types of wavelets
+    -Wavelet general equation
+    -How they are used
+  How we applied them
+    -Basic DNA info - how we look at DNA as a signal
+    -Create a graphic showing what we’re doing
+  Our results 
+    -Individual signal results
+      -Power log quantification
+      -Our quantitative results vs analytical
+ 
+  -Comparison between A and G
+
+
 ##  Team
 - Advisor: Dr. Joris Roos (Joris_Roos@uml.edu)
 - Sam Sprangel (Samuel_Sprangel@student.uml.edu)
