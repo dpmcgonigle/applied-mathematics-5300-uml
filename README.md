@@ -130,6 +130,9 @@ Relevant notes regarding this proposal:
       -Our quantitative results vs analytical
  
   -Comparison between A and G
+
+
+-Link to presentation: https://docs.google.com/presentation/d/1KPql3nQU_Dle8hUZ_UP2H4WwlU5Rod5o/edit?usp=sharing&ouid=110388968876469529329&rtpof=true&sd=true
 ```
 
 ##  Team
