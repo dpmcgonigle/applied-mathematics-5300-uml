@@ -12,6 +12,7 @@ Analyzing E. Coli DNA Structure Using Wavelets
   - [Project Timeline](#project-timeline)
 - [Proposal](#proposal)
 - [Artifacts](#artifacts)
+- [AI Disclosure](#ai_disclosure)
 - [Team](#team)
 
 ##  Installation
@@ -104,12 +105,19 @@ Relevant notes regarding this proposal:
 [Back to Top](#applied-mathematics-5300-project)
 
 ##  Artifacts
-[Exploratory Data Analysis](ecoli_dna_eda.ipynb)
+- Exploratory Notebooks
+  - [Exploratory Data Analysis](ecoli_dna_eda.ipynb)
+  - [Exploratory Codon Analysis](ecoli_codon_analysis.ipynb)
 - Signal Wavelet Notebooks
-  - GC Haar Wavelets Analysis (**TBD**)
   - [Adenine Haar Wavelets Analysis](wavelets_a_analysis.ipynb)
-  - Guanine Haar Wavelets Analysis (**TBD**)
-- Powerpoint Presentation (**TBD**)
+  - [Guanine Haar Wavelets Analysis](wavelets_g_gmc.ipynb)
+- Powerpoint Presentation: available on google docs
+
+[Back to Top](#applied-mathematics-5300-project)
+
+##  AI Disclosure
+
+AI coding tools were utilized for boilerplate code tasks such as formatting charts, filling out code comments and typing for readability, and creating visual aids for the presentation.
 
 [Back to Top](#applied-mathematics-5300-project)
 
