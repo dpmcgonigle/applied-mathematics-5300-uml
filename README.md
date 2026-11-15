@@ -77,12 +77,12 @@ Relevant notes regarding this proposal:
 
 ##  Artifacts
 - Exploratory Notebooks
-  - [Exploratory Data Analysis](ecoli_dna_eda.ipynb): Exploring genome characteristics.
-  - [Exploratory Codon Analysis](ecoli_codon_analysis.ipynb): Extended exploration into codon structure in the genome.  
+  - [Exploratory Data Analysis](notebooks/ecoli_dna_eda.ipynb): Exploring genome characteristics.
+  - [Exploratory Codon Analysis](notebooks/ecoli_codon_analysis.ipynb): Extended exploration into codon structure in the genome.  
 - Signal Wavelet Notebooks
-  - [Adenine Haar Wavelets Analysis](wavelets_a_analysis.ipynb): Analyze the Adenine signal with Haar wavelets.
-  - [Guanine Haar Wavelets Analysis](wavelets_g_gmc.ipynb): Analyze the Guanine signal with Haar wavelets.
-- Powerpoint Presentation: available on google docs
+  - [Adenine Haar Wavelets Analysis](notebooks/wavelets_a_analysis.ipynb): Analyze the Adenine signal with Haar wavelets.
+  - [Guanine Haar Wavelets Analysis](notebooks/wavelets_g_gmc.ipynb): Analyze the Guanine signal with Haar wavelets.
+- [Final Presentation](final-presentation.pdf): Final Presentation for the class.
 
 [Back to Top](#applied-mathematics-5300-project)
 
