@@ -4,8 +4,6 @@
 Analyzing E. Coli DNA Structure Using Wavelets
 
 ##  Contents
-- [Installation](#installation)
-- [Sandbox](#sandbox)
 - [Description](#description)
   - [Project Presentation Expectations](#project-presentation-expectations)
   - [Project Paper Expectations](#project-paper-expectations)
@@ -13,39 +11,12 @@ Analyzing E. Coli DNA Structure Using Wavelets
 - [Proposal](#proposal)
 - [Artifacts](#artifacts)
 - [AI Disclosure](#ai_disclosure)
+- [Installation](#installation)
+- [Sandbox](#sandbox)
 - [Team](#team)
 
-##  Installation
-Here are two sets of instructions for creating the python virtual environment; one using pip and the other using conda.
-
-### Pip (`requirements.txt`)
-Install Anaconda from https://www.anaconda.com/download
-
-```bash
-conda create -n math python==3.11.9
-conda activate math
-pip install -r requirements.txt
-```
-
-### Conda (`environment.yml`)
-Install Anaconda from https://www.anaconda.com/download
-
-```bash
-conda env create -f environment.yml
-conda activate math
-```
-
-[Back to Top](#applied-mathematics-5300-project)
-
-##  Sandbox
-The `sandbox/` directory is a safe place for exploratory work. If you want to experiment with a notebook, try a different analysis path, or make temporary edits without changing the tracked project files, copy the notebook from the project base directory into `sandbox/` and work from there instead.
-
-This is useful when you want freedom to test ideas, generate intermediate outputs, or make messy work-in-progress changes without cluttering the main codebase. The `sandbox/.gitignore` file is configured so files you place there are not uploaded to the repository, which helps keep the shared project history focused on the final versions of notebooks and code.
-
-[Back to Top](#applied-mathematics-5300-project)
-
 ## Description
-This is the project space for UML's Spring 2026 Math 5300 course. 
+This is the project space for UML's Spring 2026 Math 5300 course. Our goal is to to characterize frequency characteristics of a particular genome to understand localized structure and patterns.  See the [Proposal](#proposal) section for more details, and the [Artifacts](#artifacts) section for specific experiments performed.
 
 ### Project Presentation Expectations
 Each presentation should be about 20 minutes long. After each presentation we will have a few minutes for questions and discussion. Each team member must contribute something during the presentation, but it is not required for contributions to be equal among team members.
@@ -106,11 +77,11 @@ Relevant notes regarding this proposal:
 
 ##  Artifacts
 - Exploratory Notebooks
-  - [Exploratory Data Analysis](ecoli_dna_eda.ipynb)
-  - [Exploratory Codon Analysis](ecoli_codon_analysis.ipynb)
+  - [Exploratory Data Analysis](ecoli_dna_eda.ipynb): Exploring genome characteristics.
+  - [Exploratory Codon Analysis](ecoli_codon_analysis.ipynb): Extended exploration into codon structure in the genome.  
 - Signal Wavelet Notebooks
-  - [Adenine Haar Wavelets Analysis](wavelets_a_analysis.ipynb)
-  - [Guanine Haar Wavelets Analysis](wavelets_g_gmc.ipynb)
+  - [Adenine Haar Wavelets Analysis](wavelets_a_analysis.ipynb): Analyze the Adenine signal with Haar wavelets.
+  - [Guanine Haar Wavelets Analysis](wavelets_g_gmc.ipynb): Analyze the Guanine signal with Haar wavelets.
 - Powerpoint Presentation: available on google docs
 
 [Back to Top](#applied-mathematics-5300-project)
@@ -142,6 +113,37 @@ AI coding tools were utilized for boilerplate code tasks such as formatting char
 
 -Link to presentation: https://docs.google.com/presentation/d/1KPql3nQU_Dle8hUZ_UP2H4WwlU5Rod5o/edit?usp=sharing&ouid=110388968876469529329&rtpof=true&sd=true
 ```
+
+[Back to Top](#applied-mathematics-5300-project)
+
+##  Installation
+Here are two sets of instructions for creating the python virtual environment; one using pip and the other using conda.
+
+### Pip (`requirements.txt`)
+Install Anaconda from https://www.anaconda.com/download
+
+```bash
+conda create -n math python==3.11.9
+conda activate math
+pip install -r requirements.txt
+```
+
+### Conda (`environment.yml`)
+Install Anaconda from https://www.anaconda.com/download
+
+```bash
+conda env create -f environment.yml
+conda activate math
+```
+
+[Back to Top](#applied-mathematics-5300-project)
+
+##  Sandbox
+The `sandbox/` directory is a safe place for exploratory work. If you want to experiment with a notebook, try a different analysis path, or make temporary edits without changing the tracked project files, copy the notebook from the project base directory into `sandbox/` and work from there instead.
+
+This is useful when you want freedom to test ideas, generate intermediate outputs, or make messy work-in-progress changes without cluttering the main codebase. The `sandbox/.gitignore` file is configured so files you place there are not uploaded to the repository, which helps keep the shared project history focused on the final versions of notebooks and code.
+
+[Back to Top](#applied-mathematics-5300-project)
 
 ##  Team
 - Advisor: Dr. Joris Roos (Joris_Roos@uml.edu)
